@@ -20,5 +20,12 @@
       <guid>https://blog.bocchi.icu/posts/opencv_cuda/</guid>
       <description>summary</description>
     </item>
+    <item>
+      <title>在conda环境下安装和管理CUDA版本</title>
+      <link>https://blog.bocchi.icu/posts/cuda_in_conda_env/</link>
+      <pubDate>Thu, 19 Jun 2025 18:00:02 +0800</pubDate>
+      <guid>https://blog.bocchi.icu/posts/cuda_in_conda_env/</guid>
+      <description>summary</description>
+    </item>
   </channel>
 </rss>
