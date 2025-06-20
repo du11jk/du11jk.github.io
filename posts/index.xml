@@ -11,7 +11,14 @@
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 14:37:44 +0800</lastBuildDate>
     <atom:link href="https://blog.bocchi.icu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编译支持CUDA加速的opencv</title>
+      <link>https://blog.bocchi.icu/posts/opencv_cuda/</link>
+      <pubDate>Fri, 20 Jun 2025 14:37:44 +0800</pubDate>
+      <guid>https://blog.bocchi.icu/posts/opencv_cuda/</guid>
+      <description>summary</description>
+    </item>
   </channel>
 </rss>

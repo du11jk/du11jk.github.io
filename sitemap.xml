@@ -2,22 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.bocchi.icu/categories/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.bocchi.icu/tags/cuda/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.bocchi.icu/categories/development-environment/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.bocchi.icu/tags/opencv/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
     <loc>https://blog.bocchi.icu/posts/</loc>
     <lastmod>2025-06-20T14:37:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.bocchi.icu/</loc>
     <lastmod>2025-06-20T14:37:44+08:00</lastmod>
   </url><url>
+    <loc>https://blog.bocchi.icu/tags/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.bocchi.icu/posts/opencv_cuda/</loc>
+    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
+  </url><url>
     <loc>https://blog.bocchi.icu/pages/about/</loc>
   </url><url>
     <loc>https://blog.bocchi.icu/archives/</loc>
   </url><url>
-    <loc>https://blog.bocchi.icu/categories/</loc>
-  </url><url>
     <loc>https://blog.bocchi.icu/pages/</loc>
   </url><url>
     <loc>https://blog.bocchi.icu/search/</loc>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/</loc>
   </url>
 </urlset>
