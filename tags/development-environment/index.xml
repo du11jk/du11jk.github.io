@@ -18,7 +18,40 @@
       <link>https://blog.bocchi.icu/posts/cuda_in_conda_env/</link>
       <pubDate>Thu, 19 Jun 2025 18:00:02 +0800</pubDate>
       <guid>https://blog.bocchi.icu/posts/cuda_in_conda_env/</guid>
-      <description>summary</description>
+      <description>&lt;h1 id=&#34;安装miniconda&#34;&gt;安装miniconda&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p ~/miniconda3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm ~/miniconda3/miniconda.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/miniconda3/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda init --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;在conda环境内安装cuda-toolkit&#34;&gt;在conda环境内安装cuda-toolkit&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::cuda-toolkit -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::cuda-nvcc -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install cudnn cuda-version&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;12.4 -c nvidia -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::cuda-cudart -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::libcublas -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::libnpp -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::cuda-opencl -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install nvidia/label/cuda-12.4.1::libcufft -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 自动设置环境变量&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p &lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;/etc/conda/activate.d
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;export PATH=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/bin:\$PATH&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;/etc/conda/activate.d/env_vars.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;export LD_LIBRARY_PATH=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/lib:\$LD_LIBRARY_PATH&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;/etc/conda/activate.d/env_vars.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;export CUDA_HOME=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;/etc/conda/activate.d/env_vars.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 对应cuda版本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# https://pytorch.org/get-started/previous-versions/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;验证&#34;&gt;验证&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nvcc -V
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;可选安装tensorrt&#34;&gt;（可选）安装TensorRT&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip3 install --upgrade tensorrt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;export LD_LIBRARY_PATH=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/lib/python3.12/site-packages/tensorrt_libs:\$LD_LIBRARY_PATH&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class=&#34;nv&#34;&gt;$CONDA_PREFIX&lt;/span&gt;/etc/conda/activate.d/env_vars.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
