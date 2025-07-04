@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 20 Jun 2025 14:37:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 09:30:04 +0800</lastBuildDate>
     <atom:link href="https://blog.bocchi.icu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://blog.bocchi.icu/categories/hugo/</link>
+      <pubDate>Fri, 04 Jul 2025 09:30:04 +0800</pubDate>
+      <guid>https://blog.bocchi.icu/categories/hugo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Development Environment</title>
       <link>https://blog.bocchi.icu/categories/development-environment/</link>
