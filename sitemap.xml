@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://blog.bocchi.icu/categories/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/categories/hugo/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/hugo/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/latex/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/posts/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/posts/hugo_mathjax/</loc>
-    <lastmod>2025-07-04T09:30:04+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/cuda/</loc>
-    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/categories/development-environment/</loc>
-    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/opencv/</loc>
-    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/posts/opencv_cuda/</loc>
-    <lastmod>2025-06-20T14:37:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/tags/development-environment/</loc>
-    <lastmod>2025-06-19T18:00:02+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/posts/cuda_in_conda_env/</loc>
-    <lastmod>2025-06-19T18:00:02+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.bocchi.icu/pages/about/</loc>
-  </url><url>
-    <loc>https://blog.bocchi.icu/archives/</loc>
-  </url><url>
-    <loc>https://blog.bocchi.icu/pages/</loc>
-  </url><url>
-    <loc>https://blog.bocchi.icu/search/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://blog.bocchi.icu/en/sitemap.xml</loc>
+    
+      <lastmod>2025-07-05T05:37:07+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blog.bocchi.icu/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
