@@ -17,10 +17,10 @@
     
     <item>
       <title>编译支持CUDA加速的opencv</title>
-      <link>https://blog.bocchi.icu/posts/opencv_cuda/</link>
+      <link>https://blog.bocchi.icu/blog/opencv_cuda/</link>
       <pubDate>Fri, 20 Jun 2025 14:37:44 +0800</pubDate>
       
-      <guid>https://blog.bocchi.icu/posts/opencv_cuda/</guid>
+      <guid>https://blog.bocchi.icu/blog/opencv_cuda/</guid>
       <description>
         
         
@@ -191,10 +191,10 @@
     
     <item>
       <title>在conda环境下安装和管理CUDA版本</title>
-      <link>https://blog.bocchi.icu/posts/cuda_in_conda_env/</link>
+      <link>https://blog.bocchi.icu/blog/cuda_in_conda_env/</link>
       <pubDate>Thu, 19 Jun 2025 18:00:02 +0800</pubDate>
       
-      <guid>https://blog.bocchi.icu/posts/cuda_in_conda_env/</guid>
+      <guid>https://blog.bocchi.icu/blog/cuda_in_conda_env/</guid>
       <description>
         
         
