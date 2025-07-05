@@ -38,27 +38,11 @@
     <loc>https://blog.bocchi.icu/pages/about/</loc>
     <lastmod>2025-06-20T00:11:53+08:00</lastmod>
   </url><url>
-    <loc>https://blog.bocchi.icu/tags/</loc>
-    <lastmod>2025-07-05T18:06:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://blog.bocchi.icu/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.bocchi.icu/tags/"
-                />
-  </url><url>
-    <loc>https://blog.bocchi.icu/archives/</loc>
-    <lastmod>2025-07-05T05:37:07+08:00</lastmod>
-  </url><url>
     <loc>https://blog.bocchi.icu/blog/</loc>
     <lastmod>2025-07-05T18:04:49+08:00</lastmod>
   </url><url>
     <loc>https://blog.bocchi.icu/categories/</loc>
-    <lastmod>2025-06-20T00:11:53+08:00</lastmod>
+    <lastmod>2025-07-05T19:50:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -89,7 +73,17 @@
     <loc>https://blog.bocchi.icu/pages/</loc>
     <lastmod>2025-06-20T00:11:53+08:00</lastmod>
   </url><url>
-    <loc>https://blog.bocchi.icu/search/</loc>
-    <lastmod>2025-06-20T00:11:53+08:00</lastmod>
+    <loc>https://blog.bocchi.icu/tags/</loc>
+    <lastmod>2025-07-05T19:50:28+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://blog.bocchi.icu/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.bocchi.icu/tags/"
+                />
   </url>
 </urlset>
