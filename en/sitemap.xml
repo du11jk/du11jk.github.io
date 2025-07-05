@@ -11,19 +11,6 @@
     <loc>https://blog.bocchi.icu/tags/latex/</loc>
     <lastmod>2025-07-05T18:04:49+08:00</lastmod>
   </url><url>
-    <loc>https://blog.bocchi.icu/tags/</loc>
-    <lastmod>2025-07-05T18:04:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://blog.bocchi.icu/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.bocchi.icu/tags/"
-                />
-  </url><url>
     <loc>https://blog.bocchi.icu/blog/hugo_mathjax/</loc>
     <lastmod>2025-07-05T18:04:49+08:00</lastmod>
   </url><url>
@@ -50,6 +37,19 @@
   </url><url>
     <loc>https://blog.bocchi.icu/pages/about/</loc>
     <lastmod>2025-06-20T00:11:53+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.bocchi.icu/tags/</loc>
+    <lastmod>2025-07-05T18:06:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://blog.bocchi.icu/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.bocchi.icu/tags/"
+                />
   </url><url>
     <loc>https://blog.bocchi.icu/archives/</loc>
     <lastmod>2025-07-05T05:37:07+08:00</lastmod>

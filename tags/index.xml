@@ -1,11 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Start – Tags</title>
+    <title>Hugo Start – </title>
     <link>https://blog.bocchi.icu/tags/</link>
-    <description>Recent content in Tags on Hugo Start</description>
+    <description>Recent content on Hugo Start</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Jul 2025 09:30:04 +0800</lastBuildDate>
     
 	  <atom:link href="https://blog.bocchi.icu/tags/index.xml" rel="self" type="application/rss+xml" />
     
