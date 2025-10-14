@@ -73,7 +73,8 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;运行&lt;code&gt;vncpasswd&lt;/code&gt;以配置当前用户的vnc登陆密码&lt;/p&gt;
+&lt;p&gt;执行&lt;code&gt;sudo chmod +x ~/.vnc/xstartup&lt;/code&gt;授予执行权限
+运行&lt;code&gt;vncpasswd&lt;/code&gt;以配置当前用户的vnc登陆密码&lt;/p&gt;
 &lt;h3&gt;系统服务文件&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;系统服务文件&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%b3%bb%e7%bb%9f%e6%9c%8d%e5%8a%a1%e6%96%87%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;复制service文件模版&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
@@ -159,6 +160,8 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;p&gt;配置&lt;code&gt;sudo nano /etc/tigervnc/vncserver-config-defaults&lt;/code&gt;
+设置&lt;code&gt;$localhost = &amp;quot;no&amp;quot;;&lt;/code&gt;以允许远程连接&lt;/p&gt;
 &lt;h2&gt;在debian xfce4桌面配置&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;在debian-xfce4桌面配置&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%9c%a8debian-xfce4%e6%a1%8c%e9%9d%a2%e9%85%8d%e7%bd%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;安装tight vnc&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
